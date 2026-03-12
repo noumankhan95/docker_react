@@ -36,8 +36,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: my-react-app
-          environment_name: MyReactApp-env
+          application_name: docker-app
+          environment_name: Dockerapp-env
           version_label: ${{ github.sha }}
           region: us-east-1
           deployment_package: deploy.zip
